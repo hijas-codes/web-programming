@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>floating</title>
+</head>
+<H1 ALIGN="CENTER">FLOATING FRAME</H1>
+<IFRAME NAME="FLAOT1" SRC="http://cectl.ac.in/index.php/department/computer-engineering" WIDTH="600" HEIGHT="800" ALIGN=LEFT><IFRAME>
+</BODY>
+</HTML>
