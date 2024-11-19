@@ -1,0 +1,232 @@
+Below are answers to the entire question paper based on your syllabus and understanding as a first-semester MCA student:
+
+
+---
+
+1. What are the characteristics of software? (3 Marks)
+
+1. Intangible: Software is not physical and exists as code and instructions.
+
+
+2. Easily Replicable: Can be copied without additional costs.
+
+
+3. Customizable: Software can be updated and modified.
+
+
+4. Doesn’t Wear Out: Software does not degrade like hardware but can become obsolete.
+
+
+5. Dependent on Hardware: Requires hardware to function.
+
+
+6. Requires Maintenance: Needs updates and bug fixes.
+
+
+
+
+---
+
+2. Explain Sashimi Model. (3 Marks)
+
+The Sashimi Model is a modification of the Waterfall model where phases overlap each other, allowing for some feedback between phases.
+
+Key Features:
+
+Overlapping phases for flexibility.
+
+Early detection of errors due to feedback loops.
+
+
+Example: The design phase may overlap with the requirements phase, allowing changes to be made before coding starts.
+
+
+
+---
+
+3. What are the basic concepts of a version control system? (3 Marks)
+
+1. Versioning: Keeps track of changes in files over time.
+
+
+2. Repository: Centralized or distributed location where all versions are stored.
+
+
+3. Branching and Merging: Enables creating parallel versions (branches) and combining them later.
+
+
+4. Collaboration: Multiple developers can work simultaneously on a project.
+
+
+5. Backup: Safeguards code changes to prevent data loss.
+
+
+
+
+---
+
+4. How is software quality measured? (3 Marks)
+
+Software quality is measured based on:
+
+1. Functionality: How well it meets the requirements.
+
+
+2. Reliability: Consistency of performance without failures.
+
+
+3. Usability: Ease of use and user-friendliness.
+
+
+4. Efficiency: Performance with minimal resource usage.
+
+
+5. Maintainability: Ease of fixing bugs and adding updates.
+
+
+6. Portability: Ability to run on different platforms.
+
+
+
+
+---
+
+5. Explain how to clone a Git repository. (3 Marks)
+
+To clone a Git repository:
+
+1. Copy the repository URL from GitHub or another source.
+
+
+2. Run the command:
+
+git clone <repository_url>
+
+Example:
+
+git clone https://github.com/example/project.git
+
+
+3. The repository will be downloaded to your local system.
+
+
+
+
+---
+
+6. Explain COCOMO Estimation Model. (6 Marks)
+
+The COCOMO (Constructive Cost Model) is a software cost estimation model that predicts the effort, cost, and time required to develop software based on project size.
+
+Types:
+
+1. Basic COCOMO: Simple estimation for small projects.
+
+
+2. Intermediate COCOMO: Considers factors like reliability and complexity.
+
+
+3. Detailed COCOMO: Includes all project phases and sub-systems.
+
+
+
+
+Formula:
+
+Where:
+
+KLOC: Thousands of Lines of Code.
+
+a, b: Constants based on project type (Organic, Semi-detached, or Embedded).
+
+
+
+---
+
+7. Explain the differences between git fetch and git pull. How can conflicts be resolved in Git? (6 Marks)
+
+Difference Between git fetch and git pull:
+
+Resolving Conflicts in Git:
+
+1. Use git status to identify conflicting files.
+
+
+2. Open the files and look for conflict markers (<<<<<<<, =======, >>>>>>>).
+
+
+3. Edit the file to resolve the conflict, keeping the desired code.
+
+
+4. Use git add <file> to mark as resolved.
+
+
+5. Commit the changes with git commit.
+
+
+6. Optional: Use GUI tools like VS Code or GitHub Desktop for easier resolution.
+
+
+
+
+---
+
+8. Explain predictive and adaptive waterfall models. How is it different from a model in which development phases overlap each other? (7 Marks)
+
+Predictive Waterfall Model:
+
+Traditional approach where phases (Requirements, Design, Implementation, Testing, Maintenance) are completed sequentially.
+
+Suitable for projects with clear, fixed requirements.
+
+
+Adaptive Waterfall Model:
+
+Allows limited feedback loops between phases, making it more flexible than the predictive model.
+
+Suitable for projects with evolving requirements.
+
+
+Difference From Overlapping Models (e.g., Agile):
+
+Waterfall Models: Sequential, limited flexibility, and no overlapping phases.
+
+Overlapping Models: Phases overlap; for example, coding and testing happen simultaneously (e.g., Agile or Iterative models).
+
+
+
+---
+
+9. With an example, explain requirement specification. (6 Marks)
+
+A Requirement Specification is a formal document that defines what the software system should do. It includes functional and non-functional requirements.
+
+Example: Library Management System
+
+1. Functional Requirements:
+
+Allow users to borrow, return, and search for books.
+
+Notify users of overdue books.
+
+
+
+2. Non-Functional Requirements:
+
+The system should support 5000 users.
+
+Should respond to search queries within 2 seconds.
+
+
+
+3. Assumptions:
+
+The system will run only within the library's network.
+
+
+
+
+Purpose: Ensures a clear understanding of the system’s objectives and serves as a reference for design and testing.
+
+
+---
